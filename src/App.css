@@ -1,0 +1,31 @@
+button {
+  /* Basic button styles */
+  border: none;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  background-color: #f00;
+  color: #fff;
+  cursor: pointer;
+  text-align: center; /* Add this line */
+  display: flex;
+}
+
+button.listening {
+  /* Styles for when the button is listening */
+  background-color: #0f0;
+}
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center; /* Add this line */
+  align-items: center; /* Add this line */
+  min-width: 320px;
+  min-height: 100vh;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
